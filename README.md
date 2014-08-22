@@ -1,5 +1,4 @@
-This is a basic dice roller app. Current plans are to expand it in the following ways:
+dice-roller
+===========
 
-- Add unit tests
-- Create a JavaFX UI for desktops
-- Port to Android
+Simple, reusable code for rolling sets of dice.
