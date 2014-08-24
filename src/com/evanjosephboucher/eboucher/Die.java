@@ -28,7 +28,7 @@ public class Die implements Comparable<Die> {
     
     // Rolls this die.
     public void roll() {
-        this.currentValue = DiceRoller.randomNumberGenerator.nextInt((this.getNumberOfFaces() + 1));
+        this.currentValue = DiceRoller.randomNumberGenerator.nextInt(this.getNumberOfFaces()) + 1;
     }
 
     /**
