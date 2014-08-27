@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.evanjosephboucher.eboucher;
 
 import java.util.ArrayList;
@@ -14,12 +8,12 @@ import java.util.Collections;
  * @author Evan Boucher
  */
 public class DiceSet {
+    
     private int numberOfDice;
     private int facesPerDie;
     private int constant;
     private int totalValue;
-    private ArrayList<Die> dice;
-    
+    private ArrayList<Die> dice;  
     
     // Constructor
     private DiceSet(int numberOfDice, int facesPerDie, int constant) {
